@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Zoo {
-    public List<Cage<? extends Animal>> cages = new ArrayList<>();
+    public List<Cage<? extends Animal>> cages = new ArrayList<>(); // Generic list of cages for any type of Animal
 
     public void addNewCage(Cage<? extends Animal> cage) {
         cages.add(cage);
